@@ -3,14 +3,14 @@ Criar um vetor A com 5 elementos inteiros. Construir um vetor B de
 mesmo tipo e tamanho e com os "mesmos" elementos do vetor A, ou
 seja, B[i] = A[i].
  */
-package exercicios_loianeGroner;
+package exercicios_loianeGroner.vetores;
 
 public class VetoresIguais {
     public static void main(String[] args) {
 
         //Maneira segura e boas práticas para criar vetores iguais, mas independentes.
         int[] vetorA = {1, 2, 3, 4, 5};
-        int[] vetorB = new int[5];
+        int[] vetorB = new int[vetorA.length];
 
         //Copiando os valores de maneira segura
         for (int i = 0; i < vetorB.length; i++) {

@@ -2,9 +2,9 @@
 Criar um vetor A com 8 elementos inteiros. Construir um vetor B de
 mesmo tipo e tamanho e com os elementos do vetor A multiplicados por 2.
  */
-package exercicios_loianeGroner;
+package exercicios_loianeGroner.vetores;
 
-public class VetoresIguaisDuplicados {
+public class VetoresXdois {
     public static void main(String[] args) {
         int[] vetorA = {2, 4, 6 , 8, 10, 12, 14, 16};
         int[] vetorB = new int[8];
